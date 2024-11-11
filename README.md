@@ -17,7 +17,7 @@ For each pair of nodes:
 - Same community: A binary feature indicating if the two nodes belong to the same community based on label propagation.
 
 ## Random Forest Model and Hyperparameter Tuning
-- Randomized search with cross-validation (RandomizedSearchCV) to tune the model. The model is optimized based on the F1 score.
+- Randomised search with cross-validation (RandomizedSearchCV) to tune the model. The model is optimized based on the F1 score.
 
 ## Model Evaluation 
 The best Random Forest model is evaluated on the test set, where accuracy, precision, recall, and F1 score are printed. Feature importance scores are also displayed.
